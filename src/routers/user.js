@@ -12,8 +12,8 @@ const upoload = new multer({
   },
   fileFilter(req, file, callback) {
     // callback(undefined, false); // silently fail
-    if (!/.(jpg|jpeg|png)$/.test(file.originalname)) x;
-    callback(new Error("File must be image/jpg."));
+    if (!/.(jpg|jpeg|png)$/.test(file.originalname))
+      callback(new Error("File must be image/jpg."));
     callback(undefined, true);
   },
 });
