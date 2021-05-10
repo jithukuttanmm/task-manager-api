@@ -9,7 +9,7 @@ const sendWelcomEmail = (email, name) => {
     from: "jithukuttanmm@outlook.com",
     subject: "Welcome to Task Manager App",
     text: `Hello ${name},
-    Welxome to Task Manager App. Please reply with any suggestions you have !`,
+    Welcome to Task Manager App. Please reply with any suggestions you have !`,
   });
 };
 
